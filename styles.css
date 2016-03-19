@@ -1,2 +1,37 @@
 body {
   background: #3399FF;
+}
+
+div.picture {
+  margin-top: center;
+}
+
+section#content{
+  background-color: #00FF33;
+  border-radius: 15px;
+  padding: -2%;
+  margin: 10px;
+}
+
+
+A.class1:visited {
+  text-decoration: none; color: red;}
+
+section#header {
+  font-family: Comic Sans MS;
+  font-style: italic;
+  text-align: center;
+}
+
+div.barbell {
+  position: absolute;
+  z-index: -2;
+  margin-top: -140px;
+  margin-left: 200px;
+  width: 100px;
+  height: auto;
+}
+
+section.table {
+  color: white;
+}
