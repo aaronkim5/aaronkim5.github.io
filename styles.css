@@ -7,15 +7,18 @@ div.picture {
 }
 
 section#content{
-  background-color: #00FF33;
+  color: white;
+  background-color: #0033CC;
   border-radius: 15px;
   padding: -2%;
   margin: 10px;
 }
 
+A:link {
+    color: red;}
 
 A.class1:visited {
-  text-decoration: none; color: red;}
+  text-decoration: none; color: white;}
 
 section#header {
   font-family: Comic Sans MS;
@@ -35,3 +38,8 @@ div.barbell {
 section.table {
   color: white;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
