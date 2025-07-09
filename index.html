@@ -1,245 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Aaron Kim</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <meta name="description" content="Aaron Kim - Technical Recruiter">
+    <meta name="theme-color" content="#667eea">
+    <meta name="robots" content="index, follow">
+    <title>Your Favorite Recruiter</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">AK</a>
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="brand">AK</a>
+            <ul class="nav-menu">
+                <li><a href="#about">Me</a></li>
+                <li><a href="#services">Resume</a></li>
+                <li><a href="#contact">Connect</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
+    <section id="home" class="hero">
+        <h1>AARON KIM</h1>
+        <h2>Technical Recruiter</h2>
+        <div class="divider"></div>
+        <div class="social-links">
+            <a href="https://twitter.com/aaronkimdev">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
+            <a href="https://github.com/aaronkim5">
+                <i class="fab fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="https://www.linkedin.com/in/aaronkim5">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </section>
 
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
+    <section id="services" class="services">
+        <div class="container">git s
+            <div class="project">
+                <div class="content">
+                    <h2> </h2>
+                </div>
+                <img src="img/HAV.jpg" alt="Hack Against Violence">
+            </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>AARON KIM</h1>
-                        <h3>Software Engineer</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/aaronkimdev" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/aaronkim5" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/aaronkim5
-" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
+            <div class="project reverse">
+                <div class="content">
+                    <h2>Companies I've worked @:</h2>
+                    <ul>
+                        <li>Uber</li>
+                        <li>Meta</li>
+                        <li>Finix</li>
+                        <li>Writer</li>
+                        <li>TikTok</li>
+                        <li>Federal Reserve Bank of SF</li>
+                    </ul>
+                    <div class="links">
+                        <a href="https://github.com/supernelson/back2back" target="_blank">Before&After</a>
+                        <a href="https://www.youtube.com/watch?v=b0IqhIGc9VY" target="_blank">Video presentation</a>
                     </div>
                 </div>
+                <img src="img/beforeafter.jpg" alt="Before & After">
             </div>
 
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a  name="services"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Hack Against Violence:</h2>
-                    <h3 class="section-heading">Board Member</h3>
-                    <p class="lead"><ul><li>Organized a hackathon with 100+ attendees, including coders of all experience to build innovative solutions that aim to make an impact
-towards reducing violence</li>
-<li>Judge panels made up of industry influences, educators, hackathon pros and civic leaders: Amazon & AWS, Ingenico, Pandora,
-  #YesWeCode, Runway, & Dev Bootcamp</li></ul></p>
-                    <p class="lead"><a target="hav" href="http://hack-against-violence.org/">www.hack-against-violence.org</a></p>
-                    <p class="lead"><a target="hav" href="https://www.facebook.com/hackagainstviolence/">Facebook</a></p>
-                    <p class="lead"><a target="hav" href="https://twitter.com/hackviolence">Twitter</a></p>
+            <div class="project">
+                <div class="content">
+                    <h2>Personal</h2>
+                    <p>Very passionate in combining my love for continuous learning and applying new technologies into building beautiful and meaningful things. I also enjoy being exposed to the outdoors; hiking, fishing, biking, & paddle boarding</p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/HAV.jpg" alt="">
-                </div>
+                <img src="img/aaron.jpg" alt="Aaron Kim">
             </div>
-
         </div>
-        <!-- /.container -->
+    </section>
 
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">BEFORE & AFTER</h2>
-                    <p class="lead"><ul><li>Augmented Reality mobile app using Wikitude’s SDK, adding context for users to a physical space in a way we’ve never seen before.</li>
-<li>Designed for the user to stand on a street corner and use the app to view significant historical events in the past, or perhaps more
-interestingly have a look forward into the future.</li></ul></p>
-                    <p class="lead"><a target="github" href="https://github.com/supernelson/back2back">Before&After</a></p>
-                    <p class="lead"><a target="youtube" href="https://www.youtube.com/watch?v=b0IqhIGc9VY">Video presentation</a></p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/beforeafter.jpg" alt="">
-                </div>
-            </div>
-
+    <section id="contact" class="contact">
+        <h2>Connect with me:</h2>
+        <div class="social-links">
+            <a href="https://twitter.com/aaronkim5">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
+            <a href="https://github.com/aaronkim5">
+                <i class="fab fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="https://www.linkedin.com/in/aaronkim5">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
         </div>
-        <!-- /.container -->
+    </section>
 
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Personal</h2>
-                    <p class="lead">Very passionate in combining my love for continuous learning and applying new technologies into building beautiful and meaningful things. I also enjoy being exposed to the outdoors; hiking, fishing, biking, & paddle boarding </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/aaron.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect with me:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/aaronkim5" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/aaronkim5" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/aaronkim5
-" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
