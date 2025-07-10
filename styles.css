@@ -130,14 +130,15 @@ nav {
 .social-links a {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 12px 24px;
+    gap: 6px;
+    padding: 8px 16px;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50px;
+    border-radius: 25px;
     color: white;
     text-decoration: none;
     font-weight: 500;
+    font-size: 14px;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
 }
@@ -151,7 +152,7 @@ nav {
 }
 
 .social-links i {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 /* Services Section */
@@ -335,8 +336,8 @@ footer a:hover {
     }
     
     .social-links a {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 6px 12px;
+        font-size: 12px;
     }
     
     footer ul {
